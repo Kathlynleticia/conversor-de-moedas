@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class ConversorDeMoedas {
 
-    private static final String API_KEY = "${API_KEY_CONVERSOR}";
+    private static final String API_KEY = System.getenv("API_KEY_CONVERSOR");
 
     public double buscaTaxa(String moedaEscolhida, String moedaConvertida) {
 
