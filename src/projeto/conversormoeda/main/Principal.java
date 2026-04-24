@@ -1,4 +1,6 @@
-package projeto.kathlyn.conversormoeda;
+package projeto.conversormoeda.main;
+
+import projeto.conversormoeda.service.ConversorDeMoedas;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package projeto.kathlyn.conversormoeda;
+package projeto.conversormoeda.service;
 
 import com.google.gson.Gson;
 
@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class ConversorDeMoedas {
 
-    private static final String API_KEY = "21d6f1d7d46e0c0f0ce6f579";
+    private static final String API_KEY = "${API_KEY_CONVERSOR}";
 
     public double buscaTaxa(String moedaEscolhida, String moedaConvertida) {
 
